@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  title: API de Teste
+  version: 1.0.0
+paths:
+  /hello:
+    get:
+      summary: Retorna uma mensagem de olá
+      responses:
+        '200':
+          description: Sucesso
